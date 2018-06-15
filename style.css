@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.row:before, .row:after {
+    content: " ";
+    display: table;
+}
+.row {  
+    clear: both;
+}  
+[class*="col-"] { 
+    float: left;
+    padding: 5px;
+}
+.col-1 {
+  width: 8.333333333%;
+}
+
+.col-2 {
+  width: 16.666666667%;
+}
+
+.col-3 {
+  width: 25%;
+}
+
+.col-4 {
+  width: 33.333333333%;
+}
+
+.col-5 {
+  width: 41.666666667%;
+}
+
+.col-6 {
+  width: 50%;
+}
+
+.col-7 {
+  width: 58.333333333%;
+}
+
+.col-8 {
+  width: 66.666666667%;
+}
+
+.col-9 {
+  width: 75%;
+}
+
+.col-10 {
+  width: 83.333333333%;
+}
+
+.col-11 {
+  width: 91.666666667%;
+}
+
+.col-12{
+  width: 100%;
+}
+
+
+@media all and (min-width: 961px){ 
+    .background1{
+        width: 100%;
+        position: static;
+    }
+    .kitten1{
+        position: relative;
+        top: -430px;
+        left: 367px;
+    }
+    .kitten2{
+        display: none;
+    }
+    .kitten3{
+        display: none;
+    }
+    .pantalla2{
+        display: none;
+    }
+    .pantalla3{
+        display: none;
+    }
+   
+}   
+@media all and (min-width: 601px) and (max-width: 960px){ 
+    .background2{
+        width: 100%;
+        position: static;
+    }
+    .kitten1{
+       display: none;
+    }
+    .kitten2{
+        position: relative;
+        top: -300px;
+        left: 260px;
+    }
+    .kitten3{
+        display: none;
+    }
+    .pantalla1{
+        display: none;
+    }
+    .pantalla3{
+        display: none;
+    }
+}
+@media all and (max-width: 600px){ 
+    .background3{
+        width: 100%;
+    }
+    .kitten1{
+        display: none;
+    }
+    .kitten2{
+        display: none;
+    }
+    .kitten3{
+        
+        position: relative;
+        top: -156px;
+        left: 95px;
+        width: 65%;
+    }
+    .pantalla1{
+        display: none;
+    }
+    .pantalla2{
+        display: none;
+    }
+}
